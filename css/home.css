@@ -97,10 +97,6 @@
     font-family: Almarai;
 }
 
-#hero-section{
-    /* padding-top: 100px; */
-}
-
 #hero-section .hero-text-header {
     letter-spacing: -2px;
     font-size: 80px;
@@ -108,42 +104,18 @@
     text-align: right;
 }
 
-.rtl #hero-section {
-    background: url('./../images/home/bg/green-bg-ar.webp') no-repeat;
-    background-size: 100% 100%;
-    min-height: calc(100vh - 7.4375rem);
+#hero-section .hero-image-container {
+    display: block;
+    width: 100px;
+    /* height: 54px; */
+    /* gap: 0px;
+opacity: 0px; */
+
 }
 
 #hero-section .fs-md {
     font-size: 3.125rem;
     letter-spacing: 0.1875rem;
-}
-
-.rtl #hero-section .fs-md {
-    letter-spacing: 0;
-}
-
-#hero-section .hero-image-container {
-    width: 90%;
-    display: block;
-    margin: auto;
-
-}
-
-.rtl #hero-section .hero-image-container {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-
-}
-
-.hero-image-container img:hover {
-    animation: mymove 3s;
-}
-
-@keyframes mymove {
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 /* Media Query for Mobile Devices */
