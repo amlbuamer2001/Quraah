@@ -93,7 +93,7 @@
 /* <!-- ==================END NAVBAR============================== --> */
 /* <!-- ==================START HERO SECTION====================== --> */
 #hero-section {
-    min-height: calc(100vh - 7.4375rem);
+    /* min-height: calc(100vh + 500px); */
     font-family: Almarai;
 }
 
@@ -102,20 +102,20 @@
     font-size: 80px;
     font-weight: 800;
     text-align: right;
+    padding-top: 90px;
 }
 
 #hero-section .hero-image-container {
     display: block;
-    width: 100px;
-    /* height: 54px; */
-    /* gap: 0px;
-opacity: 0px; */
-
+    min-width: 120px;
 }
 
-#hero-section .fs-md {
-    font-size: 3.125rem;
-    letter-spacing: 0.1875rem;
+#hero-section .statistics .font-number {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: right;
+
 }
 
 /* Media Query for Mobile Devices */
@@ -135,19 +135,44 @@ opacity: 0px; */
 
 /* <!-- ==================END HERO SECTION============================ --> */
 
-/* <!-- ==================START SERVICES SECTION====================== --> */
-#services-section {
-    background: url('./../images/services/bg/services-section.webp');
-    background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
+/* <!-- ==================START ABOUT SECTION====================== --> */
+#about-section .about-image-container {
+    width: 552px;
+    height: 452px;
+    opacity: 0px;
 }
 
-#services-section .transparent-layer {
-    background-color: rgba(0, 0, 0, 0.575);
+#about-section .about-image-container img{
+    border-radius: 20px;
 }
 
-/* <!-- ==================END SERVICES SECTION========================= --> */
+#about-section .about-right-box {
+    position: relative;
+    bottom: 320px;
+    left: 60px;
+    overflow: hidden;
+    width: 185px;
+    height: 119px;
+    border-radius: 15px;
+}
+
+#about-section .about-left-box {
+    position: relative;
+    bottom: 320px;
+    right: 350px;
+    overflow: hidden;
+    ;
+    border-radius: 15px;
+    width: 235px;
+    height: 122px;
+}
+
+#about-section .about-header {
+    letter-spacing: -1px;
+    font-size: 45px;
+}
+
+/* <!-- ==================END ABOUT SECTION========================= --> */
 
 /* <!-- ==================START TEAM SECTION====================== --> */
 #team-section .team-item {

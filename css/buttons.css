@@ -22,55 +22,6 @@
     border-color: var(--border-grey-hover-color);
 }
 
-.btn-solid-main::before {
-    content: "";
-    position: absolute;
-    width: 6.25rem;
-    height: 100%;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
-    top: 0;
-    left: -6.25rem;
-    opacity: 0.6;
-}
-
-.btn-solid-main:hover::before {
-    animation: shine 1.5s ease-out infinite;
-}
-
-.btn-solid-main .right-arrow {
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-solid-main:hover .right-arrow {
-    transform: translate(.25rem);
-}
-
-.btn-solid-main .left-arrow {
-    transition: all 0.3s ease-in-out;
-
-    transform: rotate(-180deg);
-}
-
-.btn-solid-main:hover .left-arrow {
-    transform: translateX(-0.25rem) rotate(-180deg);
-
-
-}
-
-
-@keyframes shine {
-    0% {
-        left: -6.25rem;
-    }
-
-    60% {
-        left: 100%;
-    }
-
-    to {
-        left: 100%;
-    }
-}
 
 .btn-outline-main {
     min-width: 7rem;
