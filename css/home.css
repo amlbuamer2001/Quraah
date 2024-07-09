@@ -263,6 +263,11 @@
 
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../assets/questions/accordingarrow.webp');
+    transform: rotate(270deg);
+}
+
 /* <!-- ==================START QUESTION SECTION====================== --> */
 
 
