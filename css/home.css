@@ -182,6 +182,27 @@
     height: 196px;
 }
 
+.vertical-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adjust the gap between items as needed */
+    max-height: 500px; /* Set a max height for the container */
+    overflow-y: auto; /* Make the container scrollable if items exceed the height */
+    padding: 1rem; /* Add padding for better spacing */
+}
+
+.slider-item {
+    background-color: var(--bg-white-color); /* Use your custom color variable */
+    border-radius: 1rem; /* Add some border radius for rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visual appearance */
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.vertical-slider::-webkit-scrollbar {
+    width: 0;
+
+}
+
 /* <!-- ==================END CHOOSING SECTION====================== --> */
 
 /* <!-- ==================START CLIENTS SECTION====================== --> */
