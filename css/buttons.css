@@ -17,9 +17,11 @@
 
 .btn-solid-main:hover,
 .btn-solid-main:focus,
+.btn-solid-main:active,
 .btn-solid-main:focus-visible {
     transform: scale(1.05);
     border-color: var(--border-grey-hover-color);
+    color: var(--text-white-color);
 }
 
 
