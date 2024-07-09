@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 /*body===========================*/
 body {
     font-size: 14px;
@@ -7,7 +8,7 @@ body {
     color: var(--text-dark-color);
     overflow-x: hidden;
     scroll-snap-type: y mandatory ;
-    font-family: Cairo;
+    font-family: Almarai;
 }
 
 * {
@@ -56,15 +57,15 @@ img {
     object-fit: cover;
 }
 
-
-.header-transition{
-    animation: 1s ease-in both;
-    animation-name: blurFadeIn;
-    animation-timeline: view();
-    animation-range: entry 10% contain 40%;
+.font-number {
+    font-family: "Urbanist", sans-serif;
 }
 
+.section-header{
+    letter-spacing: -1px;
+    font-size: 45px;
+}
 
-#hero-section .font-number {
-    font-family: "Urbanist", sans-serif;
+.contact-no {
+    direction: ltr;
 }
