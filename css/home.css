@@ -152,8 +152,8 @@
     text-align: right;
 }
 
-.kak{
-    /* font-family: Almarai; */
+#gallery-section .font-number .alf-text{
+    font-family: Almarai;
 }
 
 /* Media Query for Mobile Devices */
