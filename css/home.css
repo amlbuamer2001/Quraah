@@ -26,6 +26,40 @@
     height: 2rem;
 }
 
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    #navbar {
+        height: 95px;
+    }
+
+    #navbar .navbar-brand .nav-logo {
+        width: 55px;
+    }
+
+    #navbar .navbar-toggler .side-bar-icon {
+        width: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #navbar {
+        height: 105px;
+    }
+
+    #navbar .navbar-brand .nav-logo {
+        width: 60px;
+    }
+
+    #navbar .navbar-toggler .side-bar-icon {
+        width: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #navbar .navbar-brand .nav-logo {
+        width: 70px;
+    }
+}
+
 /* <!-- ==================END NAVBAR============================== --> */
 /* <!-- ==================START HERO SECTION====================== --> */
 #hero-section .hero-text-header {
@@ -41,21 +75,58 @@
     min-width: 120px;
 }
 
-/* Media Query for Mobile Devices */
 @media screen and (min-width: 0px) and (max-width: 480px) {
     #hero-section .hero-text-header {
         font-size: 8vw;
         padding-top: 50px;
     }
+
+    #hero-section .hero-main-text {
+        font-size: 17px;
+    }
+
+    #hero-section .hero-figure-text {
+        font-size: 17px !important;
+    }
+
+    #hero-section .btn-solid-main {
+        font-size: 17px;
+    }
 }
 
-/* Media Query for tablet Devices */
+@media (min-width: 481px) and (max-width: 767px) {
+    #hero-section .hero-text-header {
+        font-size: 38px;
+        padding-top: 50px;
+    }
+
+    #hero-section .hero-main-text {
+        font-size: 19px;
+    }
+
+    #hero-section .hero-figure-text {
+        font-size: 19px !important;
+    }
+
+    #hero-section .btn-solid-main {
+        font-size: 19px;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #hero-section .hero-text-header {
-        font-size: 7vw;
+        font-size: 56px;
         padding-top: 50px;
     }
 }
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+    #hero-section .hero-text-header {
+        font-size: 74px;
+        padding-top: 50px;
+    }
+}
+
 
 /* <!-- ==================END HERO SECTION============================ --> */
 
@@ -84,9 +155,37 @@
 /* Media Query for Mobile Devices */
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
-    .item,
-    .half-item {
+    #gallery-section .item,
+    #gallery-section .half-item {
         height: 25rem;
+    }
+
+    #gallery-section .gallery-text-header {
+        font-size: 25px !important;
+    }
+
+    #gallery-section .font-number {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #gallery-section .gallery-text-header {
+        font-size: 35px !important;
+    }
+
+    #gallery-section .font-number {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #gallery-section .gallery-text-header {
+        font-size: 29px !important;
+    }
+
+    #gallery-section .font-number {
+        font-size: 28px;
     }
 }
 
@@ -183,9 +282,12 @@
 }
 
 .vertical-slider {
-    max-height: 500px; /* Set a max height for the container */
-    overflow-y: auto; /* Make the container scrollable if items exceed the height */
-    padding: 0.5rem; /* Add padding for better spacing */
+    max-height: 500px;
+    /* Set a max height for the container */
+    overflow-y: auto;
+    /* Make the container scrollable if items exceed the height */
+    padding: 0.5rem;
+    /* Add padding for better spacing */
 }
 
 /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
@@ -218,7 +320,7 @@
     color: #989CA5;
 }
 
-#clients-section .client-image{
+#clients-section .client-image {
     width: 48px;
     height: 48px;
 }

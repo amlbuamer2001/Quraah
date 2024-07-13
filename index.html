@@ -43,18 +43,15 @@
         <!-- ==================START HEADER==================== -->
 
         <!-- ==================START NAVBAR==================== -->
-        <nav id="navbar"
-            class="navbar navbar-expand-lg position-sticky bg-white-color shadow top-0 w-100 overflow-hidden">
+        <nav id="navbar" class="navbar navbar-expand-lg position-sticky bg-white-color shadow top-0 w-100 overflow-hidden">
             <div class="container">
                 <a class="navbar-brand" href="#" title="Quraah Logo">
-                    <img srcset="./assets/navbar/quraah-logo.webp 300w, ./assets/navbar/quraah-logo.webp 600w, ./assets/navbar/quraah-logo.webp 900w"
-                        sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
-                        src="./assets/navbar/quraah-logo.webp" alt="Quraah Logo">
+                    <img class="nav-logo" src="./assets/navbar/quraah-logo.webp" alt="Quraah Logo">
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/navbar/menu-bar.svg" alt="Menu Bar Icon">
+                    <img class="side-bar-icon" src="./assets/navbar/menu-bar.svg" alt="Menu Bar Icon">
                 </button>
                 <div id="navbarNav" class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto pe-4 fs-5 text-center">
@@ -99,12 +96,10 @@
                     </button>
                 </div>
                 <div class="offcanvas-body position-relative">
-                    <div class="d-flex justify-content-center align-items-center flex-column gap-2">
+                    <div class="d-flex justify-content-center align-items-center flex-column gap-3">
                         <div class="logo d-flex align-items-center">
                             <a class="navbar-brand" href="#" title="Quraah Logo">
-                                <img srcset="./assets/navbar/quraah-logo.webp 300w, ./assets/navbar/quraah-logo.webp 600w, ./assets/navbar/quraah-logo.webp 900w"
-                                    sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
-                                    src="./assets/navbar/quraah-logo.webp" alt="Quraah Logo">
+                                <img src="./assets/navbar/quraah-logo.webp" alt="Quraah Logo">
                             </a>
                         </div>
                         <div class="d-flex flex-column gap-2">
@@ -144,19 +139,19 @@
         <!-- ==================END HEADER====================== -->
 
         <!-- ==================START HERO SECTION============== -->
-        <section id="hero-section" role="banner" class="d-flex align-items-center">
+        <section id="hero-section" role="banner" class="d-flex align-items-center w-100 overflow-x-hidden">
             <div class="container">
                 <h1 class="hero-text-header">
                     <span class="text-main-color">قراح✦</span> لقضاء أوقاتك دون قلق
                 </h1>
                 <div class="row py-3">
-                    <div class="col-md-7 text-gray-color fs-4">
-                        <p>
+                    <div class="col-lg-7 text-gray-color fs-4">
+                        <p class="hero-main-text">
                             منتج قراح المنتج الأول في السعودية صنع على أيدي أكفاء لنضمن لك توفير الماء البارد الجاهز
                             للشرب، لتقضي أوقاتك دون قلق.
                         </p>
                     </div>
-                    <div class="col-md-5 d-flex justify-content-center">
+                    <div class="col-lg-5 d-flex justify-content-lg-center">
                         <div>
                             <div class="d-flex align-items-center flex-wrap gap-3">
                                 <picture class="hero-image-container">
@@ -164,7 +159,7 @@
                                         onerror="this.src='./assets/hero-section/people.webp';" alt="home hero image">
                                 </picture>
                                 <div>
-                                    <p class="fw-bold pt-1 fs-4">
+                                    <p class="hero-figure-text fw-bold pt-1 fs-4">
                                         أكثر من 15 ألف عميل <br> و الشركات تثق بنا.
                                     </p>
                                 </div>
@@ -187,7 +182,7 @@
         <!-- ==================END HERO SECTION================ -->
 
         <!-- ==================START GALLERY SECTION============== -->
-        <section id="gallery-section">
+        <section id="gallery-section" class="overflow-x-hidden">
             <div class="container">
                 <div class="row g-2 py-5">
                     <div class="row g-2">
@@ -195,14 +190,14 @@
                             <div class="row g-2">
                                 <div class="col-12">
                                     <div class="half-item">
-                                        <img srcset="./assets/hero-section/5-300.webp 300w, ./assets/hero-section/5-600.webp 600w, ./assets/hero-section/5.webp 900w"
+                                        <img srcset="./assets/hero-section/5.webp 300w, ./assets/hero-section/5.webp 600w, ./assets/hero-section/5.webp 900w"
                                             sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                             src="./assets/hero-section/5.webp" alt="Image 1" class="item-image">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="half-item">
-                                        <img srcset="./assets/hero-section/6-300.webp 300w, ./assets/hero-section/6-600.webp 600w, ./assets/hero-section/6.webp 900w"
+                                        <img srcset="./assets/hero-section/6.webp 300w, ./assets/hero-section/6.webp 600w, ./assets/hero-section/6.webp 900w"
                                             sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                             src="./assets/hero-section/6.webp" alt="Image 2" class="item-image">
                                     </div>
@@ -211,7 +206,7 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="item">
-                                <img srcset="./assets/hero-section/4-300.webp 300w, ./assets/hero-section/4-600.webp 600w, ./assets/hero-section/4.webp 900w"
+                                <img srcset="./assets/hero-section/4.webp 300w, ./assets/hero-section/4.webp 600w, ./assets/hero-section/4.webp 900w"
                                     sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                     src="./assets/hero-section/4.webp" alt="Image 3" class="img-fluid item-image">
                             </div>
@@ -220,14 +215,14 @@
                             <div class="row g-2">
                                 <div class="col-12">
                                     <div class="half-item">
-                                        <img srcset="./assets/hero-section/2-300.webp 300w, ./assets/hero-section/2-600.webp 600w, ./assets/hero-section/2.webp 900w"
+                                        <img srcset="./assets/hero-section/2.webp 300w, ./assets/hero-section/2.webp 600w, ./assets/hero-section/2.webp 900w"
                                             sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                             src="./assets/hero-section/2.webp" alt="Image 4" class="item-image">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="half-item">
-                                        <img srcset="./assets/hero-section/3-300.webp 300w, ./assets/hero-section/3-600.webp 600w, ./assets/hero-section/3.webp 900w"
+                                        <img srcset="./assets/hero-section/3.webp 300w, ./assets/hero-section/3.webp 600w, ./assets/hero-section/3.webp 900w"
                                             sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                             src="./assets/hero-section/3.webp" alt="Image 5" class="item-image">
                                     </div>
@@ -236,16 +231,16 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="item">
-                                <img srcset="./assets/hero-section/1-300.webp 300w, ./assets/hero-section/1-600.webp 600w, ./assets/hero-section/1.webp 900w"
+                                <img srcset="./assets/hero-section/1.webp 300w, ./assets/hero-section/1.webp 600w, ./assets/hero-section/1.webp 900w"
                                     sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px"
                                     src="./assets/hero-section/1.webp" alt="Image 6" class="img-fluid item-image">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row pb-3">
+                <div class="row align-items-center pb-3">
                     <div class="col-md-6">
-                        <h2 class="fs-1 fw-bold">
+                        <h2 class="gallery-text-header fs-1 fw-bold">
                             تصاعد ملحوظ في إحصائياتنا <br>
                             <span class="font-number text-main-color">
                                 ✦ 2x
@@ -253,8 +248,8 @@
                         </h2>
                     </div>
                     <div class="col-md-2">
-                        <div class="statistics d-flex flex-column align-items-center fw-bold">
-                            <p class="text-dark-color font-number">
+                        <div class="statistics d-flex flex-column align-items-center text-center fw-bold">
+                            <p class="font-number text-dark-color">
                                 98%
                             </p>
                             <p class="text-gray-color fs-5">
@@ -263,8 +258,8 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="statistics d-flex flex-column align-items-center fw-bold">
-                            <p class="text-dark-color font-number">
+                        <div class="statistics d-flex flex-column align-items-center text-center fw-bold">
+                            <p class="font-number text-dark-color">
                                 89%
                             </p>
                             <p class="text-gray-color fs-5">
@@ -273,8 +268,8 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="statistics d-flex flex-column align-items-center fw-bold">
-                            <p class="text-dark-color font-number">
+                        <div class="statistics d-flex flex-column align-items-center text-center fw-bold">
+                            <p class="font-number text-dark-color">
                                 +15 ألف
                             </p>
                             <p class="text-gray-color fs-5">
@@ -288,7 +283,7 @@
         <!-- ==================END GALLERY SECTION================ -->
 
         <!-- ==================START ABOUT SECTION============== -->
-        <section id="about-section">
+        <!-- <section id="about-section">
             <div class="container pb-5 pt-3">
                 <div class="row">
                     <div class="col-md-6">
@@ -456,11 +451,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END About SECTION================ -->
 
         <!-- ==================START WORKING SECTION============== -->
-        <section id="working-section">
+        <!-- <section id="working-section">
             <div class="container py-5">
                 <div class="row g-3 g-md-5">
                     <div class="col-md-4">
@@ -513,11 +508,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END WORKING SECTION================ -->
 
         <!-- ==================START CHOOSING SECTION================ -->
-        <section id="choosing-section">
+        <!-- <section id="choosing-section">
             <div class="container py-5">
                 <div class="row slider-box bg-light-blue rounded-4 align-items-center py-3 px-3">
                     <div class="col-md-6">
@@ -549,11 +544,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END CHOOSING SECTION================ -->
 
         <!-- ==================START CLIENTS SECTION================ -->
-        <section id="clients-section">
+        <!-- <section id="clients-section">
             <div class="container pt-5">
                 <div class="row g-4 g-md-0">
                     <div class="col-md-5 d-flex align-items-center">
@@ -583,9 +578,7 @@
                     </div>
                     <div class="col-md-1">
                         <div>
-                            <!-- <div class="arrow-image-container">
-                                <img src="./assets/ماذا يقول عنا عملاؤنا ؟/Mask group.png" alt="arrow image">
-                            </div> -->
+                         
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -625,11 +618,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END CLIENTS SECTION================ -->
 
         <!-- ==================START QUESTIONS SECTION================ -->
-        <section id="questions" class="pt-5">
+        <!-- <section id="questions" class="pt-5">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-6">
@@ -802,11 +795,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END QUESTIONS SECTION================ -->
 
         <!-- ==================START CONTACT SECTION ============== -->
-        <section id="contact-section">
+        <!-- <section id="contact-section">
             <div class="container pb-5">
                 <div class="row">
                     <div class="col-md-12 pb-5">
@@ -914,11 +907,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ==================END CONTACT SECTION============== -->
 
         <!-- ==================START FOOTER============== -->
-        <footer id="footer" class="bg-main-color text-white-color pt-5">
+        <!-- <footer id="footer" class="bg-main-color text-white-color pt-5">
             <div class="container">
                 <div class="row g-5 g-md-2">
                     <div class="col-md-5">
@@ -971,8 +964,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
-
+        </footer> -->
         <!-- ==================END FOOTER============== -->
     </main>
     <script src="./js/jquery-3.7.1.min.js"></script>
