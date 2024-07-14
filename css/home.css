@@ -397,17 +397,21 @@
     }
 
     #choosing-section .vertical-slider {
-        max-height: 322px;
+        max-height: 345px;
     }
 
     #choosing-section .slider-box .slider-item {
-        height: 120px;
+        padding-block: 30px;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
     #choosing-section .section-header {
         font-size: 35px;
+    }
+
+    #choosing-section .vertical-slider {
+        max-height: 430px;
     }
 }
 
