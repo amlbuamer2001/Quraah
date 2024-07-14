@@ -300,7 +300,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    #about-section .section-header{
+    #about-section .section-header {
         font-size: 33px;
     }
 
@@ -371,7 +371,7 @@
     height: 195px;
 }
 
-.vertical-slider {
+#choosing-section .vertical-slider {
     max-height: 500px;
     /* Set a max height for the container */
     overflow-y: auto;
@@ -381,9 +381,39 @@
 }
 
 /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
-.vertical-slider::-webkit-scrollbar {
+#choosing-section .vertical-slider::-webkit-scrollbar {
     width: 0;
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #choosing-section .section-header {
+        font-size: 32px;
+    }
+
+    #choosing-section .choosing-point-text {
+        font-size: 1rem !important;
+    }
+
+    #choosing-section .slider-box .slider-item {
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #choosing-section .section-header {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #choosing-section .section-header {
+        font-size: 33px;
+    }
+
+    #choosing-section .choosing-point-text {
+        font-size: 1rem !important;
+    }
 }
 
 /* <!-- ==================END CHOOSING SECTION====================== --> */
