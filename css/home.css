@@ -368,11 +368,12 @@
 
 /* <!-- ==================START CHOOSING SECTION====================== --> */
 #choosing-section .slider-box .slider-item {
-    height: 195px;
+    /* height: 195px; */
+    padding-block: 40px;
 }
 
 #choosing-section .vertical-slider {
-    max-height: 500px;
+    max-height: 419px;
     /* Set a max height for the container */
     overflow-y: auto;
     /* Make the container scrollable if items exceed the height */
@@ -393,6 +394,10 @@
 
     #choosing-section .choosing-point-text {
         font-size: 1rem !important;
+    }
+
+    #choosing-section .vertical-slider {
+        max-height: 322px;
     }
 
     #choosing-section .slider-box .slider-item {
