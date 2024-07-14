@@ -233,7 +233,7 @@
     }
 
     #about-section .section-header {
-        font-size: 3rem;
+        font-size: 40px;
     }
 
     #about-section .about-right-box {
@@ -243,6 +243,12 @@
     #about-section .about-left-box {
         bottom: 254px;
         right: 101px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #about-section .section-header {
+        font-size: 40px;
     }
 }
 
