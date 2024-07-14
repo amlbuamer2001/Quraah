@@ -232,7 +232,7 @@
     }
 
     #about-section .section-header {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     #about-section .about-right-box {
@@ -245,6 +245,15 @@
         right: 16vw;
     }
 }
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #about-section .section-header {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 @media screen and (min-width: 375px) and (max-width: 400px) {
     #about-section .about-left-box {
@@ -268,10 +277,6 @@
 }
 
 @media (min-width: 481px) and (max-width: 617px) {
-    #about-section .section-header {
-        font-size: 40px;
-    }
-
     #about-section .about-right-box {
         bottom: 351px;
         left: -11px;
@@ -284,7 +289,6 @@
 }
 
 @media (min-width: 618px) and (max-width: 767px) {
-
     #about-section .about-right-box {
         left: 28px;
     }
@@ -295,14 +299,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #about-section .about-image-container {
-        height: 615px;
+
+    #about-section .section-header{
+        font-size: 33px;
     }
 
-    #about-section .about-image-container img{
-        object-fit: fill;
+    #about-section .about-point-text {
+        font-size: 1rem;
     }
-
 
     #about-section .about-right-box {
         left: 28px;
@@ -329,35 +333,34 @@
     }
 }
 
-/* @media screen and (min-width: 500px) and (max-width: 991px) {
-    #about-section .about-right-box {
-        left: 14px;
-        bottom: 410px;
-    }
-
-    #about-section .about-left-box {
-        bottom: 281px;
-        right: 125px;
-    }
-} */
-
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
 /* <!-- ==================START WORKING SECTION====================== --> */
 #working-section .balls-number {
-    width: 50px;
+    width: auto;
     height: 50px;
+    margin-top: 8px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     #working-section .section-header {
-        font-size: 2.5rem;
+        font-size: 32px;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
     #working-section .section-header {
-        font-size: 2rem;
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #working-section .section-header {
+        font-size: 33px;
+    }
+
+    #working-section .working-point-text {
+        font-size: 1rem !important;
     }
 }
 
