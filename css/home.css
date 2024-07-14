@@ -152,7 +152,7 @@
     text-align: right;
 }
 
-#gallery-section .font-number .alf-text{
+#gallery-section .font-number .alf-text {
     font-family: Almarai;
 }
 
@@ -227,7 +227,6 @@
 /* Media Query for Mobile Devices */
 @media screen and (min-width: 320px) and (max-width: 480px) {
     #about-section .about-image-container {
-        width: 350px;
         height: 350px;
         margin: auto;
     }
@@ -238,21 +237,99 @@
 
     #about-section .about-right-box {
         left: -10px;
+        bottom: 332px;
     }
 
     #about-section .about-left-box {
         bottom: 254px;
-        right: 101px;
+        right: 16vw;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 400px) {
+    #about-section .about-left-box {
+        bottom: 254px;
+        right: 28vw;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+    #about-section .about-left-box {
+        bottom: 254px;
+        right: 33vw;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 480px) {
+    #about-section .about-left-box {
+        bottom: 254px;
+        right: 37vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 617px) {
     #about-section .section-header {
         font-size: 40px;
     }
+
+    #about-section .about-right-box {
+        bottom: 351px;
+        left: -11px;
+    }
+
+    #about-section .about-left-box {
+        bottom: 254px;
+        right: 44vw;
+    }
 }
 
-@media screen and (min-width: 500px) and (max-width: 991px) {
+@media (min-width: 618px) and (max-width: 767px) {
+
+    #about-section .about-right-box {
+        left: 28px;
+    }
+
+    #about-section .about-left-box {
+        right: 303px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #about-section .about-image-container {
+        height: 615px;
+    }
+
+    #about-section .about-image-container img{
+        object-fit: fill;
+    }
+
+
+    #about-section .about-right-box {
+        left: 28px;
+        bottom: 370px;
+    }
+
+    #about-section .about-left-box {
+        right: 128px;
+        bottom: 286px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #about-section .about-right-box {
+        left: 17px;
+        bottom: 370px;
+    }
+
+    #about-section .about-left-box {
+        right: 244px;
+        bottom: 312px;
+    }
+}
+
+/* @media screen and (min-width: 500px) and (max-width: 991px) {
     #about-section .about-right-box {
         left: 14px;
         bottom: 410px;
@@ -262,7 +339,7 @@
         bottom: 281px;
         right: 125px;
     }
-}
+} */
 
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
