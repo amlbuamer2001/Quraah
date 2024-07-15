@@ -435,25 +435,123 @@
     transform: rotateX(140deg);
 }
 
-#clients-section .owl-carousel {
-    height: 380px;
-}
+/* #clients-section .owl-carousel {
+} */
 
 #clients-section .owl-carousel {
     direction: ltr;
     background: linear-gradient(180deg, #DDF4FF 0%, #76C8F9 99.99%, #6240ED 100%, #6240ED 100.01%);
+    height: 380px;
+}
+
+#clients-section .owl-carousel .owl-stage {
+   display: flex;
+   align-items: center; 
 }
 
 #clients-section .owl-carousel .item {
     background: linear-gradient(231.62deg, #FFFFFF 0%, #E0E0E0 100%);
     color: #989CA5;
+    border: 4px solid #ECECEC
 }
 
 #clients-section .client-image {
-    width: 48px;
+    width: auto;
     height: 48px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #clients-section .section-header {
+        font-size: 32px;
+    }
+
+    #clients-section .owl-carousel {
+        height: 300px;
+    }
+
+    #clients-section .owl-carousel .owl-item {
+    width: 290px !important;
+    }
+    
+    #clients-section .owl-carousel .item {
+        width: 290px;
+    }
+
+    #clients-section .client-desc {
+        font-size: 15px;
+    }
+
+    #clients-section .client-name {
+        font-size: 16px;
+    }
+
+    #clients-section .client-image {
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    #clients-section .owl-carousel {
+        height: 300px;
+    }
+
+    #clients-section .owl-carousel .owl-item {
+    width: 290px !important;
+    }
+    
+    #clients-section .owl-carousel .item {
+        width: 290px;
+    }
+
+    #clients-section .client-desc {
+        font-size: 15px;
+    }
+
+    #clients-section .client-name {
+        font-size: 16px;
+    }
+
+    #clients-section .client-image {
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #clients-section .section-header {
+        font-size: 33px;
+    }
+
+    #clients-section .owl-carousel {
+        height: 300px;
+    }
+
+    #clients-section .owl-carousel .owl-item {
+    width: 290px !important;
+    }
+    
+    #clients-section .owl-carousel .item {
+        width: 290px;
+    }
+
+    #clients-section .client-desc {
+        font-size: 15px;
+    }
+
+    #clients-section .client-name {
+        font-size: 16px;
+    }
+
+    #clients-section .client-image {
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #clients-section .section-header {
+        font-size: 43px;
+    }
+}
 
 /* <!-- ==================END CLIENTS SECTION====================== --> */
 
